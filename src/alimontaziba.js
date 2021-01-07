@@ -14,7 +14,7 @@ var url;
 
 var _script  = document.querySelector('[data-current="true"]');
 var _license = document.querySelector('meta[name="tc:license"]');
-var _product = document.querySelector('meta[name="tc:product"]').getAttribute('content');
+var _product = document.querySelector('meta[name="tc:product"]');
 
 if (typeof _license !== "undefined") {
 	_license = _license.getAttribute('content');
